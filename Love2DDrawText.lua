@@ -1,4 +1,3 @@
--- Placeholder for drawing text using Love2D graphics
 -- @param text to be drawn, x-coordinate of the top-left corner of the text, y-coordinate of the top-left corner of the text, text color
 -- @return nil
 
