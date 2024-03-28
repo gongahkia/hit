@@ -1,11 +1,11 @@
--- @param string, substring to be trimmed on the left
+-- @param string, substring to be trimmed on both sides
 -- @return sanitised string
 
-function lstrip(str, substr)
+function stringStrip(str, substr)
     if substr then
         local pattern = "^" .. substr .. "*(.-)" .. substr .. "*$"
         return str:match(pattern)
     else
-        return str:match("^%s*(.-)%s*$")
+        return str:match("^%s*(.-)%s*$"):match("%S.*%S") or ""
     end
 end

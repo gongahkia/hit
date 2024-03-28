@@ -1,7 +1,7 @@
 -- @param table, value to be pushed
 -- @return new table
 
-function push(tbl, val)
+function arrayPush(tbl, val)
     table.insert(tbl, val)
     return tbl
 end
