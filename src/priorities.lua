@@ -22,7 +22,7 @@ function priorityQueueModule.push(queue, val, priority)
 end
 
 -- @param priority queue
--- @return popped value, 
+-- @return popped value, updated priority queue
 function priorityQueueModule.pop(queue)
     if priorityQueueModule.isEmpty(queue) then
         error("Priority queue is empty")
