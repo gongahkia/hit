@@ -7,7 +7,7 @@ function stackModule.new()
 end
 
 -- @param stack
--- @return boolean depending on whether a stack is empty
+-- @return boolean depending on whether a stack empty
 function stackModule.isEmpty(stack)
     return #stack == 0
 end

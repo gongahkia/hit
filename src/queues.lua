@@ -7,7 +7,7 @@ function queueModule.new()
 end
 
 -- @param queue
--- @return boolean depending on whether queue is empty
+-- @return boolean depending on whether queue empty
 function queueModule.isEmpty(queue)
     return queue.first > queue.last
 end
